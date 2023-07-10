@@ -122,3 +122,45 @@ main section{
 .profile3-immage{
     width: 200px;
 }
+
+
+
+
+
+
+
+
+
+
+.footer-section{
+    background-color: #111010;
+    padding:100px 100px;
+}
+.footer-section{
+    text-align: center;
+}
+.footer-title{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 0;
+    
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 0;
+  
+}
+.copyright{
+   color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+   font-weight: 400;
+   margin-top: 32px ;
+   
+}
+.text-style{
+    color: white;
+}
