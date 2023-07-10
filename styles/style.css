@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+main section{
+      margin-top: 100px;
+}
+.header{
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    padding:100px 240px;
+}
+.header-text{
+    margin-top:;
+}
+.header-title{
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 0;
+   
+}
+.header-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top:25px;
+    margin-bottom: 0;
+
+}
+.btn-primary{
+    border-radius: 8px;
+    background-color:#E55473;;
+    color: white;
+    border: 0;
+    padding: 20px 43px;
+    margin-top:25px;
+}
+.profile-img{
+    width: 400px;
+   
+   
+}
+.section1-title{ 
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+
+}
+.section1-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24;
+    
+}
+.box-picture-container{
+    display: inline;
+   align-items: center;
+   justify-content: space-between;
+}
+.section3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    padding:100px 200px;
+}
+.section2-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 0;
+  
+}
+.section2-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top:24px;
+    margin-bottom: 0;
+  
+}
+.btn{
+    margin-top:32px;
+    border-radius: 8px;
+    background-color:#E55473;;
+    color: white;
+    border: 0;
+    padding: 20px 43px;
+    margin-top:25px;
+   
+}
+.section4-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+   font-weight: 800;
+   margin-bottom: 0;
+  
+}
+.section4-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top:20px;
+
+}
+.section4-picture{
+    margin: 50px 240px;
+    gap: 50px;
+}
+.profile3-immage{
+    width: 200px;
+}
