@@ -80,6 +80,24 @@ main section{
     width: 250px;
     height: 400px;
 }
+
+
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 80px;
+    margin: 100px 240px;
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding: 70px 90px ;
+}
+.dp{
+    width: 60px;
+
+}
+
+
 .section3{
     display: flex;
     align-items: center;
@@ -88,14 +106,14 @@ main section{
     background-color: rgba(229, 84, 115, 0.05);
     padding:100px 200px;
 }
-.section2-title{
+.section3-title{
     color: #272727;
     font-size: 40px;
     font-weight: 800;
     margin-top: 0;
   
 }
-.section2-description{
+.section3-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -112,6 +130,7 @@ main section{
     border: 0;
     padding: 20px 43px;
     margin-top:25px;
+    margin-left: 150px;
    
 }
 .section4-title{
