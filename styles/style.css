@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    margin: 0;
+    padding: 0;
 }
 body{
     font-family: 'Lato', sans-serif;
@@ -11,6 +11,8 @@ main section{
 .header{
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
+    justify-content: space-around;
+    gap: 70px;
     padding:100px 240px;
 }
 .header-text{
@@ -41,9 +43,9 @@ main section{
 }
 .profile-img{
     width: 400px;
-   
-   
+    
 }
+
 .section1-title{ 
     color: #272727;
     text-align: center;
@@ -61,24 +63,61 @@ main section{
     
 }
 .box-picture-container{
-    display:flex;
-   align-items: center;
+   display:flex;
    justify-content:space-around;
-   margin:30px 240px 0 240px;
+   width:1000px;
+   height:300px;
+   align-items:center;
+   margin:50px 250px 0 250px;
+   gap: 30px;
+   
+  
+
 
 }
 .box{
    
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-    width: 250px;
-    height: 538px;
+    width: 330px;
+    height:250px;
     padding-top: 100px;
+    background-color:rgba(167, 33, 98, 0.15);
+    margin-bottom: 0px;
+
     
 }
-.box >img{
-    width: 250px;
-    height: 400px;
+.box2{
+    border-radius: 300px 300px 0px 0px;
+    width: 330px;
+    height: 250px;
+    padding-top: 100px;
+    background-color: rgba(5, 151, 160, 0.15);
+    margin-bottom:0px;
+
+}
+.box3{
+    border-radius: 300px 300px 0px 0px;
+    width: 330px;
+    height: 250px;
+    padding-top: 100px;
+    background-color: rgb(71, 125, 17, 0.15);
+    margin-bottom: 0px;
+
+}
+
+.box-picture{
+    width: 300px;
+    height: 250px;
+
+    
+}
+.paragraph{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    align-items: center;
+    margin: 50px 200px;
+    gap:30px;
 }
 
 
@@ -94,6 +133,9 @@ main section{
 }
 .dp{
     width: 60px;
+    margin: 0 auto;
+   
+    
 
 }
 
@@ -105,11 +147,14 @@ main section{
     border-radius: 8px;
     background-color: rgba(229, 84, 115, 0.05);
     padding:100px 200px;
+    width: 1140px;
+    height:300px ;
+   
 }
 .section3-title{
     color: #272727;
     font-size: 40px;
-    font-weight: 800;
+    font-weight:800;
     margin-top: 0;
   
 }
@@ -220,6 +265,7 @@ input[type="email"]
     margin-right:30px;
     border-radius: 8px;
     border: 0;
+    padding-left:30px ;
 }
 
 
@@ -229,6 +275,7 @@ input[type="email"]
 .footer-section{
     background-color: #111010;
     padding:100px 100px;
+    margin-top: 100px;
 }
 .footer-section{
     text-align: center;
